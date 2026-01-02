@@ -13,12 +13,12 @@ public class FizzBuzz {
 
         for( int i = 1; i <= 100; i++){
             if(i % 3 == 0 && i % 5 == 0){
-                System.out.println("Fizz Buzz: " + i );
+                System.out.println("Fizz Buzz: " + i + " This value divided by 3 and 5");
             } else if (i % 3 == 0) {
-                System.out.println("Fizz " + i);
+                System.out.println("Fizz " + i + " This value divided by 3");
             }
             else if(i % 5 == 0) {
-                System.out.println("Buzz " + i);
+                System.out.println("Buzz " + i + " This value divided by 5");
             }
             }
     }
