@@ -11,6 +11,6 @@ public class Lab054_Interview_Char_INT {
         System.out.println(a1 + a2);
         System.out.println(a1 - a2);
 
-            //v
+            // char are noting but int :D
     }
 }
