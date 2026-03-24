@@ -9,11 +9,29 @@ public class Lab132_UD_Part1 {
         // 4. With parameters and with return type
 
         // 1. Without Parameters and without return type
-        //wop_wor_greet();
+        wop_wor_greet();
 
         // 2. Without parameters but with return type
-       // String msg = wop_wr_greet_2();
+       String msg = wop_wr_greet_2();
+
+        // 3. With parameters and without return type (90%)
+        greet_with_details("Pramod", 65, 100);
+
+        // 4. With parameters and with return type
+        int sum = sum_of_two_numbers(3,4);
+       }
+
+       static int sum_of_two_numbers(int i, int i1){
+        return i + i1;
+        }
+        static void greet_with_details(String pramod, int i, int i1){
+        }
+
+        static String wop_wr_greet_2(){
+        return "Pramod";
+        }
+        static void wop_wor_greet(){
+        }
 
 
-    }
 }
