@@ -12,5 +12,10 @@ public class Lab149_Reverse_String {
             reverse = reverse + input.charAt(i);
         }
         System.out.println(reverse);
+        if(reverse.equalsIgnoreCase(input)){
+            System.out.println("Palindrome");
+        }else {
+            System.out.println("Not a Palindrome");
+        }
     }
 }
